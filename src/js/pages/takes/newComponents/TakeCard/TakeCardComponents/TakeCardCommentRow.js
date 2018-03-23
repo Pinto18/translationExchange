@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import ReactPlayer from 'react-player';
-import PlayerTracker from '../../../../../components/playerTracker';
+import PlayerTracker from '../../../../../components/PlayerTracker';
 
 
 export default class TakeCardCommentRow extends React.Component {
