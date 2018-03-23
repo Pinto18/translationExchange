@@ -24,8 +24,6 @@
     "prop-types": "^15.6.1",
     "query-string": "^4.3.4",
     "raven-js": "^3.22.3",
-    "rc-dropdown": "^2.1.1",
-    "rc-menu": "^6.2.6",
     "react": "^16.2.0",
     "react-addons": "^0.9.1-deprecated",
     "react-addons-create-fragment": "^15.6.0",
@@ -41,7 +39,6 @@
     "react-dnd-multi-backend": "^3.0.4",
     "react-dnd-touch-backend": "^0.3.15",
     "react-dom": "^16.2.0",
-    "react-dropdown": "^1.4.0",
     "react-file-input": "^0.2.5",
     "react-github-login": "^1.0.3",
     "react-google-auth": "^0.4.1",
@@ -60,7 +57,6 @@
     "react-social-auth": "^1.0.45",
     "react-social-login": "^3.2.1",
     "react-stars": "^2.1.0",
-    "react-toggle": "^4.0.2",
     "react-transition-group": "^1.2.0",
     "react-truncate": "^2.3.0",
     "react-wavesurfer": "^0.8.6",
@@ -86,12 +82,10 @@
     "cross-env": "^5.0.1",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
-    "enzyme-to-json": "^3.3.1",
+    "enzyme-to-json": "^3.3.0",
     "fetch-mock": "^5.13.1",
     "jest": "^20.0.4",
     "jest-cli": "^20.0.4",
-    "jest-styled-components": "^5.0.0",
-    "jsdom": "^11.6.2",
     "moxios": "^0.4.0",
     "react-addons-test-utils": "^15.6.0",
     "react-scripts": "^1.0.7",
@@ -105,11 +99,6 @@
     "build": "cross-env NODE_PATH=src react-scripts build",
     "test": "cross-env NODE_PATH=src react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "jest": {
-    "snapshotSerializers": [
-      "enzyme-to-json/serializer"
-    ]
   },
   "proxy": "http://translationExchange:8080"
 }
