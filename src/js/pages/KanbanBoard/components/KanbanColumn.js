@@ -41,11 +41,8 @@ class KanbanColumn extends React.Component {
   navigateToChapter(chapter_num, chapterId) {
 
     var query = QueryString.parse(this.props.location.search);
-    console.log(query, 'QUERY');
     query.chapterId = chapterId;
     query.chapterNum = chapter_num;
-    const queryString  = QueryString.stringify(query);
-    console.log(queryString);
 
     this.props.history.push({
       pathname: '/kanban',
