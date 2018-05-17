@@ -11,7 +11,7 @@ git:
   depth: 1
 addons:
   sonarcloud:
-    organization: wa-github
+    organization: pinto18-github
     token: "${SONAR_TOKEN}"
 jobs:
   include:
@@ -32,7 +32,7 @@ jobs:
     - stage: sonar
       allow_failures:
         if: type IN (push, cron)
-        script: sonar-scanner -Dsonar.projectKey=translationexchange -Dsonar.sources=.
+        script: sonar-scanner -Dsonar.projectKey=translationExchange -Dsonar.sources=src/js
 stages:
   - test
   - sonar
